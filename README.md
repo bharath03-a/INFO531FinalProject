@@ -2,8 +2,6 @@
 
 This project aims to detect potentially fraudulent healthcare providers using machine learning and deep learning techniques applied to Medicare claims data. It was developed as part of the final project for INFO 531: Data Warehousing and Analytics in the Cloud at the University of Arizona.
 
----
-
 ## Project Structure
 
 - `notebooks/`
@@ -16,8 +14,6 @@ This project aims to detect potentially fraudulent healthcare providers using ma
 - `models/` – Optional folder for serialized model artifacts
 - `README.md` – Project overview and documentation
 
----
-
 ## Datasets
 
 This project uses the [Healthcare Provider Fraud Detection Analysis dataset](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis/data) from Kaggle. It includes:
@@ -26,8 +22,6 @@ This project uses the [Healthcare Provider Fraud Detection Analysis dataset](htt
 - Outpatient claims data
 - Beneficiary demographic and chronic condition data
 - Fraud labels indicating if a provider is potentially fraudulent
-
----
 
 ## Methodology
 
@@ -56,8 +50,6 @@ This project uses the [Healthcare Provider Fraud Detection Analysis dataset](htt
   - ROC curve plotting and confusion matrix visualization
   - Threshold tuning for fraud sensitivity
 
----
-
 ## Visualizations
 
 Key figures generated from EDA and model evaluation:
@@ -65,15 +57,11 @@ Key figures generated from EDA and model evaluation:
 - ![SHAP1](img/output.png)
 - ![SHAP2](img/pred.png)
 
----
-
 ## Best Performing Model (XGBoost)
 
 - F1 Score: ~0.52  
 - AUC Score: ~0.85  
 - Observations: Strong ability to capture complex fraud signals, resilient to class imbalance
-
----
 
 ## Key Learnings
 
@@ -82,13 +70,9 @@ Key figures generated from EDA and model evaluation:
 - XGBoost consistently outperforms traditional classifiers in real-world fraud use cases
 - Neural networks can be explored further with hyperparameter tuning and embeddings
 
----
-
 ## Future Work
 
 - Create a Power BI / Streamlit dashboard for fraud insights
-
----
 
 ## Contact
 
